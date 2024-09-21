@@ -1,0 +1,4 @@
+repository "CTIN 389 Week 4@daily_nagatenjouki@cloud.cn"
+  path "/"
+    br "/main"
+    co "/main"
