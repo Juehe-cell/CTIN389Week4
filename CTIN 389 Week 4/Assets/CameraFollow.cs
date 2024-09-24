@@ -17,7 +17,7 @@ public class CameraFollow : MonoBehaviour
     void Update()
     {
         rotationX += Input.GetAxis("Mouse Y") * -1 * sensitivity;
-        rotationY += Input.GetAxis("Mouse X") * -1 * sensitivity;
+        rotationY += Input.GetAxis("Mouse X") * 1 * sensitivity;
         transform.localEulerAngles = new Vector3(rotationX, rotationY, 0);
     }
 }
