@@ -24,7 +24,7 @@ public class Pet : MonoBehaviour
                 //within or out of range
                 if (TargetDistance >= AllowedDistance)
                 {
-                    followSpeed = 1f;
+                    followSpeed = 5f;
                     //Pet.GetComponent<Animator>().Play("run");
                     transform.position = Vector3.MoveTowards(transform.position, Player.transform.position, followSpeed);
                 }
